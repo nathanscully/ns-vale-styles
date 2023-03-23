@@ -1,0 +1,9 @@
+extends: existence
+message: "Don't start a sentence with '%s'."
+ignorecase: false
+level: error
+raw:
+  - '(?:[;-]\s)There\s(is|are)|\bThere\s(is|are)\b'
+  - '(?:[;-]\s)So[\s,]|\bSo[\s,]'
+  - '(?:[;-]\s)It[\s,]|\bIt[\s,]'
+  - '(?:[;-]\s)But[\s,]|\bBut[\s,]'
